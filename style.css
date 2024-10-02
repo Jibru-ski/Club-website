@@ -101,6 +101,8 @@ header p{
     backdrop-filter: blur(10px);
     overflow: hidden;
 }
+
+
 .wrapper-btns{
     display: flex;
 }
