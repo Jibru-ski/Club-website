@@ -42,7 +42,7 @@ header p{
 }
 
 .hero{
-    height: 85lvh;
+    height: 90lvh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,13 +95,14 @@ header p{
     width: 300px;
     height: auto;
     margin-right: 40px;
-    background-color:  rgba(255,255,255, 0.06);
-    border-radius: 15px;
     border: 1px solid rgba(255,255,255, 0.1);
-    backdrop-filter: blur(10px);
+    border-radius: 15px;
     overflow: hidden;
 }
-
+.glassy{
+    background-color:  rgba(255,255,255, 0.06);
+    backdrop-filter: blur(10px);
+}
 
 .wrapper-btns{
     display: flex;
@@ -136,4 +137,51 @@ header p{
     font-size: 12px;
     color: #fff;
     font-family: 'Roboto Mono';
+}
+
+/* About Section */
+.about-content,
+.about-content-btn{
+    display: flex;
+    margin:0 60px 0;
+}
+.about-head{
+    display: flex;
+}
+.about-title h2{
+    font-size: 5pc;
+    font-family: 'myFont';
+    color: #111111;
+    background-color: #fff;
+    line-height: 100%;
+    white-space: nowrap;
+}
+.about-body{
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 20px;
+    font-size: 12px;
+    color: #fff;
+}
+.about-content-btn{
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.about-content-btn .deco{
+    width: 100%;
+    height: 40px;
+    background: repeating-linear-gradient( 45deg, transparent 0px, transparent 20px, white 20px, white 40px);
+}
+.about-content-btn .btn{
+    display: flex;
+    place-content: end;
+    width: 150px;
+}
+.about-content-btn .btn a{
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 10px;
+    padding: 12px 20px;
 }
